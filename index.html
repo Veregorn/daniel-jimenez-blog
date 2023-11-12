@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blog de Fútbol de Robots</title>
+    <title>El Blog de Daniel Jiménez</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo Fútbol de Robots" id="blog-logo">
-        <h1>Fútbol de Robots</h1>
+        <img src="dani-manga.png" alt="Logo Fútbol de Robots" id="blog-logo">
+        <h1>El Blog de Daniel Jiménez</h1>
     </header>
     <nav>
-        <!-- Barra de navegación si es necesario -->
+        <div><a href="index.html">Inicio</a></div>
+        <div><a href="index.html">Blog</a></div>
+        <div><a href="index.html">Contacto</a></div>
     </nav>
     <main>
-        <!-- Contenido del blog aquí -->
+        <article>
+            <!-- Contenido del artículo del blog -->
+            <div class="article-content">
+                <h1>Robots que juegan al fútbol</h1>
+                <div class="article-meta">
+                    <span class="author">Escrito por: Dani</span>
+                    <span class="date">el 12 de Noviembre de 2023</span>
+                </div>
+                <img id="robot-ilustr" src="ilustracion-robot.png" alt="Ilustración de robot jugando al fútbol">
+                <h2>Historia y desarrollo del fútbol jugado por robots</h2>
+                <p>La idea de robots jugando al fútbol fue mencionada por primera vez por el profesor <a href="http://people.cs.ubc.ca/~mack/">Alan Mackworth</a> en un articulo titulado "on seeing robots".</p>
+                <p>En 1992 un grupo de investigadores japoneses organizó un taller sobre los grandes retos en inteligencia artificial , enfocándose en el fútbol para promover la ciencia la ciencia y la tecnología. Desarrollaron reglas y prototipos de robots de fútbol y sistemas simuladores. El proyecto se llamo Robocup.</p>
+                <p>Los primeros juegos oficiales de Robocup se celebraron en 1997 con más de 40 equipos y más de 5000 expectadores.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/V_Kr87PXWIQ?si=f6r4SxzJSlGjzo50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Robocup es una competición de fútbol que cuenta actualmente con 8 ligas según el tamaño y la forma del robot , incluyendo tamaños , pequeño , medio, humanoide (kid size / teen size/ adult size) plataforma estándar y simulación (3D/2D).</p>
+                <p>Estas ligas tienen reglas especificas para cada Juego, demostrando estrategias basadas en el mapeo de los robots.</p>
+                <h2>Tecnologías involucradas</h2>
+                <ul>
+                    <li><b>Actuadores y mecanismos de movimiento </b>que les permiten a los robots moverse y dar patadas a la pelota.</li>
+                    <li><b>Sistemas de equilibrio y estabilidad </b>que permiten a los robots no caerse cuando reciben empujones.</li>
+                    <li><b>Capacidades de visión y precepción de entorno </b>que permiten a los robots ver  y reaccionar a su entorno, detectan la pelota, reconocen los límites del campo y la ubicación de otros jugadores . Para esto se utilizan cámaras y sensores.</li>
+                    <li><b>Comunicación y estrategia de juego autónoma </b>para que los robots puedan coordinarse entre sí y ejecutar estrategias de juego.</li>
+                    <li><b>Software y algoritmos de inteligencia artificial </b>que les permite aprender, adaptarse y tomar decisiones.</li>
+                    <li><b>Simulación y entrenamiento en entornos virtuales. </b>Esto les permite aprender y perfeccionar  sus habilidades en un entorno controlado antes de enfrentarse a las complejidades y variables impredecibles del mundo.</li>
+                </ul>
+                <h2>Ejemplo de uso de la tecnología</h2>
+                <p>El robot tiene sensores que detectan la pelota, cuando la pelota se acerca al robot, este cambia de color azul a marrón.</p>
+                <div id="campo">
+                    <div id="robot"></div>
+                    <div id="pelota"></div>
+                </div>
+                <h2>Competiciones y Eventos</h2>
+                <p>Como ya he mencionado antes, la Robocup es la mayor competición mundial de fútbol jugado por robots. Reúne a ingenieros de todo el mundo y nació con el objetivo de crear un equipo de robots capaces de competir en el mundial de futbol de 2050 contra humanos.</p>
+                <p>Hoy en día los robots ya han evolucionado mucho jugando al fútbol, por ejemplo el modelo ARTEMIS tiene movimientos casi humanos.</p>
+                <img src="artemis.jpeg" alt="robot artemis">
+                <h2>Opinión personal</h2>
+                <p>En mi opinión, el fútbol con robots es algo que podría llegar a triunfar, ya que está evolucionando bastante rápido. Y aunque he visto algún partido en el que los robots no se veían muy sueltos, había algunos que hacían jugadas de telegrafía, y hasta que quieran participar en el mundial de 2050 que quedan 27 años, pueden evolucionar bastante más.</p>
+            </div>
+        </article>
     </main>
-    <aside>
-        <!-- Información adicional o enlaces aquí -->
-    </aside>
     <footer>
-        <p>Blog de Fútbol de Robots - Creado por Dani y Rul</p>
+        <p>Blog creado por Daniel Jiménez</p>
     </footer>
     <script src="script.js"></script>
 </body>
